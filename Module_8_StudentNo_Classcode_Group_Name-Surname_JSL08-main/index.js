@@ -17,8 +17,8 @@ class BankBranch {
 const bankBranchInstance = new BankBranch({ name: "Main Branch", location: "City Center" });
 
 // Instances of the  class "BankBranch" with different branch information
-const branchA = new BankBranch({ name: "Branch A", location: "Johannesburg" });  //"Branch A" is located in "sandton"
-const branchB = new BankBranch({ name: "Branch B", location: "Rustenburg" }); //"Branch B" is located in "Hillbrow"
+const branchA = new BankBranch({ name: "Branch A", location: "Johannesburg" });  //"Branch A" is located in "Johannesburg"
+const branchB = new BankBranch({ name: "Branch B", location: "Rustenburg" }); //"Branch B" is located in "Rustenburg"
 
 // Retrieving branch information from the instances using "getBranchInfo", output for both should be { name: "Main Branch", location: "City Center" }
 console.log(branchA.getBranchInfo()); 
