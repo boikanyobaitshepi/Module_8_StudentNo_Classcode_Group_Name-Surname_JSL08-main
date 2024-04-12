@@ -13,7 +13,7 @@ class BankBranch {
     }
 }
 
-// Variables to store the singleton instance of the main bank branch
+// Variables to store instance of the main bank branch
 const bankBranchInstance = new BankBranch({ name: "Main Branch", location: "City Center" });
 
 // Instances of the  class "BankBranch" with different branch information
@@ -24,5 +24,5 @@ const branchB = new BankBranch({ name: "Branch B", location: "Rustenburg" }); //
 console.log(branchA.getBranchInfo()); 
 console.log(branchB.getBranchInfo());  
 
-// Verifying that `branchA` and `branchB` are both referring to the same instance using "===" (truthy/falsy)
+// Verifying that `branchA` and `branchB` are both referring to the same instance using "===" (true/false)
 console.log(branchA === branchB); // Output: true
